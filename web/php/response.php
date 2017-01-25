@@ -8,6 +8,11 @@
 
 include('/php/config.php');
 
+if (mysqli_connect_errno()) {
+    return("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+
 $id = $_POST["id"];
 $age = $_POST["age"];
 $group = $_POST["group"];
