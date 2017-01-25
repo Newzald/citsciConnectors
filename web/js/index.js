@@ -36,7 +36,7 @@ $(function () {
             $age = $( '#age' ).val(),
             $group = $( '#group' ).val();
 
-        newPerson($id, $age, $group, $surnameSum);
+        newPerson($id, $age, $group, surnameSum);
     });
 
 })

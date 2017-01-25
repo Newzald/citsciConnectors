@@ -18,13 +18,14 @@ if (isset($_POST["id"])){
             INSERT
             INTO connectors(
               `id`,
+              `email`,
               `age`,
               `group`,
               `connections`,
               `event_timestamp`)
-            VALUES (sisi, ?, ?, ?, ?, CURRENT_TIMESTAMP)");
+            VALUES ('', ?, ?, ?, ?, CURRENT_TIMESTAMP)");
 
-    $stmt->bind_param($id, $age, $group, $connections);
+    $stmt->bind_param('sisi', $id, $age, $group, $connections);
 
     $stmt->execute();
 
