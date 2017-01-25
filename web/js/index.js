@@ -6,7 +6,7 @@ $(function () {
     function newPerson (id, age, group, connections){
         return $.ajax({
             type: "POST",
-            url: "response.php",
+            url: "php/response.php",
             data: {id: id, age: age, group: group, connections:connections}
         });
     };
@@ -15,7 +15,7 @@ $(function () {
         return $.ajax({
             type: "GET",
             data: {id: id, group: group},
-            url: "response.php"
+            url: "php/response.php"
         });
     };
 
