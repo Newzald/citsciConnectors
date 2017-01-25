@@ -1,0 +1,50 @@
+{% block javascripts %}
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+{% endblock %}
+
+{% block stylesheets %}
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block sidebar %}
+    <div class="col-md-3 push-md-9">
+        <h1>
+            Instructions
+        </h1>
+        <p>
+            This is a list of 250 surnames taken randomly form the Manhattan phonebook.
+            <br><br>
+            Go down the list and give yourself a point every time you see a surname that is shared by someone you know. (The definition of “know” here is very broad. It is if you sat down next to that person on a train, you would know their name if they introduced themselves to you, and they would know your name.) Multiple names count. If the name is Johnson, in other words, and you know three Johnsons, you get three points.
+            <br><br>
+            Once you've finished, double check your identifying information and hit submit.
+        </p>
+    </div>
+{% endblock %}
+
+{% block questionaire %}
+    <form class="col-md-9 pull-md-3" id="questionaire">
+    {% for info in demographic_questions %}
+        <div class="form-group row">
+            <label for="{{ info.id }}" class="col-sm-2 col-form-label">{{ info.name }}</label>
+            <div class="col-sm-10">
+                <input class="form-control" type="{{ info.type }}" placeholder="{{ info.sample }}" id="{{ info.id }}">
+                {% if info.help is defined %}
+                    <small id="{{ info.id }}Help" class="form-text text-muted">{{ info.help }}</small>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+    <hr>
+    {% for surname in surnames %}
+        <div class="form-group row text-right">
+            <label for="{{ surname }}" class="col-4 col-form-label">{{ surname }}</label>
+            <div class="col-8">
+                <input class="form-control surname" type="number" value="0" id="{{ surname }}">
+            </div>
+        </div>
+    {% endfor %}
+        <button type="submit" class="btn btn-primary" style="float:right;">Submit</button>
+    </form>
+{% endblock %}

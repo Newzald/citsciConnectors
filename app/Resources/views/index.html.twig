@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% use 'blocks.html.twig' %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+{% endblock %}
+
+{% block body %}
+    <div class="row">
+    {% block sidebar %}
+        {{ parent() }}
+    {% endblock %}
+    {% block questionaire %}
+        {{ parent() }}
+    {% endblock %}
+    </div>
+{% endblock %}

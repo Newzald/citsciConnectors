@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-light">
+            <div class="container">
+                <div class="navbar-brand">
+                    <img src="/graphics/icosahedron.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Epidemic Connections</div>
+            </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid" style="background-color: rgb(209, 18, 66); color:white;">
+            <div class="container">
+                <h1 class="display-3">Are you a connector?</h1>
+                <p class="lead">Connectors are the rare people who have incredibly widespread "social networks." They are often successful businessmen or politicians, and play an integral role in the spread of ideas. With their wide reaching group of friends and acquaintances, connectors can spread a message rapidly to a receptive audience.</p>
+            </div>
+        </div>
+        <div class="container">
+        {% block body %}{% endblock %}
+        </div>
+        <nav class="navbar sticky-bottom navbar-light">
+            <div class="container"></div>
+        </nav>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
