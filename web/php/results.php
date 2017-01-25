@@ -34,17 +34,23 @@ $query_ages = "SELECT AVG(connections) AS 'Total', age
 $response = $conn->query($query_ages);
 for ($set_ages = array(); $row = $response->fetch_assoc(); $set_ages[] = $row);
 
+$response->close();
+
 $query_groups = "SELECT AVG(connections) AS 'Total', group
             FROM connectors
             GROUP BY group";
 $response = $conn->query($query_groups);
 for ($set_groups = array(); $row = $response->fetch_assoc(); $set_groups[] = $row);
 
+$response->close();
+
 $query_total = "SELECT AVG(connections) AS 'Total'
             FROM connectors";
 
 $response = $conn->query($query_total);
 for ($set_pop = array(); $row = $response->fetch_assoc(); $set_pop[] = $row);
+
+$response->close();
 
 $results = array(
     "pop" => $set_pop,

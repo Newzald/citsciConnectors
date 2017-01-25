@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78210c80-99fe-449d-9197-a9204840e711" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/php/results.php" afterPath="$PROJECT_DIR$/web/php/results.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,12 +46,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-4">
               <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-              <folding>
-                <marker date="1485373674000" expanded="true" signature="941:1234" ph="..." />
-                <marker date="1485373674000" expanded="true" signature="974:1223" ph="..." />
-                <marker date="1485373674000" expanded="true" signature="1306:1599" ph="..." />
-                <marker date="1485373674000" expanded="true" signature="1339:1588" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,13 +54,13 @@
       <file leaf-file-name="results.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/php/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="750">
+              <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
               <folding>
-                <marker date="1485374020000" expanded="true" signature="397:434" ph="SELECT * FRO... connections" />
-                <marker date="1485374020000" expanded="true" signature="675:767" ph="SELECT AVG(c... connectors" />
-                <marker date="1485374020000" expanded="true" signature="907:1003" ph="SELECT AVG(c... " />
-                <marker date="1485374020000" expanded="true" signature="1148:1210" ph="SELECT AVG(c... connectors" />
+                <marker date="1485374304000" expanded="true" signature="397:434" ph="SELECT * FRO... connections" />
+                <marker date="1485374304000" expanded="true" signature="675:767" ph="SELECT AVG(c... connectors" />
+                <marker date="1485374304000" expanded="true" signature="928:1024" ph="SELECT AVG(c... " />
+                <marker date="1485374304000" expanded="true" signature="1190:1252" ph="SELECT AVG(c... connectors" />
               </folding>
             </state>
           </provider>
@@ -73,7 +69,7 @@
       <file leaf-file-name="HomepageController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/HomepageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
+            <state relative-caret-position="155">
               <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
@@ -435,12 +431,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485313495114</updated>
       <workItem from="1485313497838" duration="3588000" />
-      <workItem from="1485363214991" duration="8981000" />
+      <workItem from="1485363214991" duration="9272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12569000" />
+    <option name="totallyTimeSpent" value="12860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -603,35 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/blocks.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/results.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <marker date="1485373674000" expanded="true" signature="941:1234" ph="..." />
-            <marker date="1485373674000" expanded="true" signature="974:1223" ph="..." />
-            <marker date="1485373674000" expanded="true" signature="1306:1599" ph="..." />
-            <marker date="1485373674000" expanded="true" signature="1339:1588" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/HomepageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SPARC Projects/HTeMaiLer/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -651,15 +618,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/blocks.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/HomepageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/results.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/php/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="750">
+          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
           <folding>
-            <marker date="1485374020000" expanded="true" signature="397:434" ph="SELECT * FRO... connections" />
-            <marker date="1485374020000" expanded="true" signature="675:767" ph="SELECT AVG(c... connectors" />
-            <marker date="1485374020000" expanded="true" signature="907:1003" ph="SELECT AVG(c... " />
-            <marker date="1485374020000" expanded="true" signature="1148:1210" ph="SELECT AVG(c... connectors" />
+            <marker date="1485374304000" expanded="true" signature="397:434" ph="SELECT * FRO... connections" />
+            <marker date="1485374304000" expanded="true" signature="675:767" ph="SELECT AVG(c... connectors" />
+            <marker date="1485374304000" expanded="true" signature="928:1024" ph="SELECT AVG(c... " />
+            <marker date="1485374304000" expanded="true" signature="1190:1252" ph="SELECT AVG(c... connectors" />
           </folding>
         </state>
       </provider>
