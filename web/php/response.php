@@ -6,11 +6,20 @@
  * Time: 2:57 PM
  */
 
-include('/php/config.php');
+//require('/php/config.php');
 
-if (mysqli_connect_errno()) {
-    return("Connect failed: %s\n", mysqli_connect_error());
-    exit();
+$url = parse_url(getenv("CLEARDB_DATABASE_URL")); // Heroku lets db info be hidden in environment vars
+
+$host = $url["host"];
+$user = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
+
+$conn = new mysqli($host, $user, $password, $db);
+
+if($conn->connect_errno > 0)
+{
+    die('Unable to connect to database [' . $conn->connect_error . ']');
 }
 
 $id = $_POST["id"];
