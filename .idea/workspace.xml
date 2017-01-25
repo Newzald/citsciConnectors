@@ -53,13 +53,13 @@
       <file leaf-file-name="results.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/php/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+            <state relative-caret-position="101">
+              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
-                <marker date="1485374584000" expanded="true" signature="397:434" ph="SELECT * FRO... connections" />
-                <marker date="1485374584000" expanded="true" signature="675:767" ph="SELECT AVG(c... connectors" />
-                <marker date="1485374584000" expanded="true" signature="871:967" ph="SELECT AVG(c... " />
-                <marker date="1485374584000" expanded="true" signature="1074:1136" ph="SELECT AVG(c... connectors" />
+                <marker date="1485374746000" expanded="true" signature="397:437" ph="SELECT * FRO... connections" />
+                <marker date="1485374746000" expanded="true" signature="678:770" ph="SELECT AVG(c... connectors" />
+                <marker date="1485374746000" expanded="true" signature="874:970" ph="SELECT AVG(c... " />
+                <marker date="1485374746000" expanded="true" signature="1077:1139" ph="SELECT AVG(c... connectors" />
               </folding>
             </state>
           </provider>
@@ -430,12 +430,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485313495114</updated>
       <workItem from="1485313497838" duration="3588000" />
-      <workItem from="1485363214991" duration="9496000" />
+      <workItem from="1485363214991" duration="9592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13084000" />
+    <option name="totallyTimeSpent" value="13180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -643,13 +643,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/php/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        <state relative-caret-position="101">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
-            <marker date="1485374584000" expanded="true" signature="397:434" ph="SELECT * FRO... connections" />
-            <marker date="1485374584000" expanded="true" signature="675:767" ph="SELECT AVG(c... connectors" />
-            <marker date="1485374584000" expanded="true" signature="871:967" ph="SELECT AVG(c... " />
-            <marker date="1485374584000" expanded="true" signature="1074:1136" ph="SELECT AVG(c... connectors" />
+            <marker date="1485374746000" expanded="true" signature="397:437" ph="SELECT * FRO... connections" />
+            <marker date="1485374746000" expanded="true" signature="678:770" ph="SELECT AVG(c... connectors" />
+            <marker date="1485374746000" expanded="true" signature="874:970" ph="SELECT AVG(c... " />
+            <marker date="1485374746000" expanded="true" signature="1077:1139" ph="SELECT AVG(c... connectors" />
           </folding>
         </state>
       </provider>

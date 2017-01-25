@@ -18,7 +18,7 @@ $request = $_GET["req"];
 $data = $_GET["data"];
 
 
-$query = "SELECT * FROM connections WHERE id = ".$data." ";
+$query = "SELECT * FROM connections WHERE email = ".$data." ";
 
 $response = $conn->query($query);
 for ($set = array(); $row = $response->fetch_assoc(); $set[] = $row);
