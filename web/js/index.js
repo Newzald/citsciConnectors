@@ -34,9 +34,15 @@ $(function () {
 
         var $id = $( '#email_id' ).val(),
             $age = $( '#age' ).val(),
-            $group = $( '#group' ).val();
+            $group = $( '#group' ).val().toLowerCase();
 
-        console.log(newPerson($id, $age, $group, surnameSum));
+        newPerson($id, $age, $group, surnameSum)
+            .done( function() {
+                window.location.replace("http://citsci.ianmcclellan.me/results");
+            })
+            .fail( function () {
+                alert("Failed to save to database.");
+            });
     });
 
 })

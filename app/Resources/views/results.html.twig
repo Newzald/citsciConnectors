@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% use 'blocks.html.twig' %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="js/results.js"></script>
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+{% endblock %}
+
+{% block body %}
+
+
+    <div class="jumbotron jumbotron-fluid" style="background-color: rgb(209, 18, 66); color:white;">
+        <div class="container">
+            <h1 class="display-3">You have <span id="u-avg"></span> connections.</h1>
+        </div>
+    </div>
+    <div class="card card-inverse card-primary" style="margin-top: 20px;">
+        <div class="card-block">
+            <h3 class="card-title">On average, people in this group had <span id="p-avg"></span> connections.</h3>
+            <!--<p class="card-text">The highest number of connections a person in this group had is <span id="p-max"></span></p>-->
+        </div>
+    </div>
+    <div class="card card-inverse card-warning" style="margin-top: 20px;">
+        <div class="card-block">
+            <h3 class="card-title">On average, people in this group had <span id="a-avg"></span> connections.</h3>
+            <!--<p class="card-text">On average, people in this group had <span id="g-avg"></span> connections.</p>-->
+        </div>
+    </div>
+    <div class="card card-inverse card-info" style="margin-top: 20px;">
+        <div class="card-block">
+            <h3 class="card-title">On average, people in this group had <span id="g-avg"></span> connections.</h3>
+            <!--<p class="card-text">On average, people in this group had <span id="a-avg"></span> connections.</p>-->
+        </div>
+    </div>
+{% endblock %}
