@@ -8,36 +8,34 @@
 
 include('config.php');
 
-if (isset($_POST["id"])){
-    $id = $_POST["id"];
-    $age = $_POST["age"];
-    $group = $_POST["group"];
-    $connections = $_POST["connections"];
+$id = $_POST["id"];
+$age = $_POST["age"];
+$group = $_POST["group"];
+$connections = $_POST["connections"];
 
-    $stmt = $conn->prepare("
-            INSERT
-            INTO connectors(
-              `id`,
-              `email`,
-              `age`,
-              `group`,
-              `connections`,
-              `event_timestamp`)
-            VALUES ('', ?, ?, ?, ?, CURRENT_TIMESTAMP)");
+$stmt = $conn->prepare("
+        INSERT
+        INTO connectors(
+          `id`,
+          `email`,
+          `age`,
+          `group`,
+          `connections`,
+          `event_timestamp`)
+        VALUES ('', ?, ?, ?, ?, CURRENT_TIMESTAMP)");
 
-    $stmt->bind_param('sisi', $id, $age, $group, $connections);
+$stmt->bind_param('sisi', $id, $age, $group, $connections);
 
-    $stmt->execute();
+$stmt->execute();
 
-    $stmt->free_result();
+$stmt->free_result();
 
-    $conn->close();
-
-} elseif (isset($_GET["id"])){
+$conn->close();
+ /*elseif (isset($_GET["id"])){
     $id = $_GET["id"];
 
     $query = "SELECT *
-            FROM connectors");
+            FROM connectors";
 
     $response = $conn->query($query);
 
