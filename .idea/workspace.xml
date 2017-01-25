@@ -34,11 +34,11 @@
       <file leaf-file-name="response.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/php/response.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
-                <marker date="1485316212000" expanded="true" signature="250:457" ph="INSERT INTO connectors" />
-                <marker date="1485316212000" expanded="true" signature="651:687" ph="SELECT * FRO... connectors" />
+                <marker date="1485316645000" expanded="true" signature="255:462" ph="INSERT INTO connectors" />
+                <marker date="1485316645000" expanded="true" signature="656:692" ph="SELECT * FRO... connectors" />
               </folding>
             </state>
           </provider>
@@ -307,12 +307,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485313495114</updated>
-      <workItem from="1485313497838" duration="2747000" />
+      <workItem from="1485313497838" duration="2910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2747000" />
+    <option name="totallyTimeSpent" value="2910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -403,11 +403,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/php/response.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <marker date="1485316212000" expanded="true" signature="250:457" ph="INSERT INTO connectors" />
-            <marker date="1485316212000" expanded="true" signature="651:687" ph="SELECT * FRO... connectors" />
+            <marker date="1485316645000" expanded="true" signature="255:462" ph="INSERT INTO connectors" />
+            <marker date="1485316645000" expanded="true" signature="656:692" ph="SELECT * FRO... connectors" />
           </folding>
         </state>
       </provider>

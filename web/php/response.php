@@ -6,7 +6,7 @@
  * Time: 2:57 PM
  */
 
-include('config.php');
+include('/php/config.php');
 
 $id = $_POST["id"];
 $age = $_POST["age"];
