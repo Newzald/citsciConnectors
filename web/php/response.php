@@ -18,7 +18,9 @@ $age = $_POST["age"];
 $group = $_POST["group"];
 $connections = $_POST["connections"];
 
-$stmt = $conn->prepare("INSERT INTO connectors VALUES (?, ?, ?, ?)");
+//$query = "INSERT INTO `connectors`"
+
+$stmt = $conn->prepare("INSERT INTO connectors VALUES ('', ?, ?, ?, ?, CURRENT_TIMESTAMP)");
 
 $stmt->bind_param('sisi', $id, $age, $group, $connections);
 
