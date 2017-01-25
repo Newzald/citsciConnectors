@@ -15,7 +15,7 @@ $connections = $_POST["connections"];
 
 $stmt = $conn->prepare("
         INSERT
-        INTO connectors(
+        INTO `connectors`(
           `id`,
           `email`,
           `age`,
