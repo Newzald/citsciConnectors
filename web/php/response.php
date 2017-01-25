@@ -13,22 +13,13 @@ $age = $_POST["age"];
 $group = $_POST["group"];
 $connections = $_POST["connections"];
 
-$stmt = $conn->prepare("
-        INSERT
-        INTO `connectors`(
-          `id`,
-          `email`,
-          `age`,
-          `group`,
-          `connections`,
-          `event_timestamp`)
-        VALUES ('', ?, ?, ?, ?, CURRENT_TIMESTAMP)");
+$stmt = $conn->prepare("INSERT INTO connectors VALUES (?, ?, ?, ?)");
 
 $stmt->bind_param('sisi', $id, $age, $group, $connections);
 
 $stmt->execute();
 
-$stmt->free_result();
+$stmt->close();
 
 $conn->close();
  /*elseif (isset($_GET["id"])){
